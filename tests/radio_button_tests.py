@@ -19,7 +19,7 @@ class RadioButtonDemoTests(BaseTest):
           {"value": "Female", "expected": "Radio button 'Female' is checked"})
     def test_simple_radio_button_demo(self, value, expected):
         radio = self.radio
-        radio.click_to_radio_button(value)
+        radio.click_simple_radio_buttons(value)
         radio.get_selected_value()
         self.assertEqual(radio.get_confirmation_message(), expected)
 

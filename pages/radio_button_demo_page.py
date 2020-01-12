@@ -14,10 +14,18 @@ class RadioButtonDemoPage(BasePage):
     def navigate_to_radio_buttons_demo_page(self):
         super().navigate_to("basic-radiobutton-demo.html")
 
-    def click_to_radio_button(self, value):
-        for i in range(len(self.driver.find_elements(*self.radio_buttons))):
-            if self.driver.find_elements(*self.radio_buttons)[i].get_attribute("value") == value:
-                self.driver.find_elements(*self.radio_buttons)[i].click()
+    @staticmethod
+    def click_to_radio_button(elements1, value1, elements2=None, value2=None):
+        for i in range(len(elements1)):
+            if elements1[i].get_attribute("value") == value1:
+                elements1[i].click()
+        if value2 is not None and elements2 is not None:
+            for i in range(len(elements2)):
+                if elements2[i].get_attribute("value") == value2:
+                    elements2[i].click()
+
+    def click_simple_radio_buttons(self, value):
+        self.click_to_radio_button(self.driver.find_elements(*self.radio_buttons), value)
 
     def get_selected_value(self):
         self.driver.find_element(*self.get_checked_value).click()
