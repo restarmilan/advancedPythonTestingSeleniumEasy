@@ -1,0 +1,18 @@
+{
+    "empty_string": {
+        "message": "",
+        "expected": ""
+    },
+    "string_only_letters": {
+        "message": "message",
+        "expected": "message"
+    },
+    "string_letters_numbers": {
+        "message": "mess0246age86",
+        "expected": "mess0246age86"
+    },
+    "string_letters_numbers_special_characters": {
+        "message": "me@*ss0246a?ge86!",
+        "expected": "me@*ss0246a?ge86!"
+    }
+}
