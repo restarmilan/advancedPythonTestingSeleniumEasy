@@ -1,0 +1,37 @@
+{
+  "case1": {
+    "value1": "Male",
+    "value2": "0 - 5",
+    "expected": "Sex : Male\nAge group: 0 - 5"
+  },
+  "case2": {
+    "value1": "Male",
+    "value2": "5 - 15",
+    "expected": "Sex : Male\nAge group: 5 - 15"
+  },
+  "case3": {
+    "value1": "Male",
+    "value2": "15 - 50",
+    "expected": "Sex : Male\nAge group: 15 - 50"
+  },
+  "case4": {
+    "value1": "Female",
+    "value2": "0 - 5",
+    "expected": "Sex : Female\nAge group: 0 - 5"
+  },
+  "case5": {
+    "value1": "Female",
+    "value2": "5 - 15",
+    "expected": "Sex : Female\nAge group: 5 - 15"
+  },
+  "case6": {
+    "value1": "Female",
+    "value2": "15 - 50",
+    "expected": "Sex : Female\nAge group: 15 - 50"
+  },
+  "case7": {
+    "value1": "",
+    "value2": "",
+    "expected": "Sex :\nAge group:"
+  }
+}

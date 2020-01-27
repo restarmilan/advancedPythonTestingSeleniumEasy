@@ -1,0 +1,37 @@
+{
+  "two_positive_integers": {
+    "value1": "1",
+    "value2": "2",
+    "expected": "3"
+  },
+  "positive_integer_zero": {
+    "value1": "1",
+    "value2": "0",
+    "expected": "1"
+  },
+  "positive_negative_integers": {
+    "value1": "1",
+    "value2": "-1",
+    "expected": "0"
+  },
+  "two_negative_integers": {
+    "value1": "-1",
+    "value2": "-2",
+    "expected": "-3"
+  },
+  "integer_double": {
+    "value1": "1",
+    "value2": "1.5",
+    "expected": "2.5"
+  },
+  "two_doubles": {
+    "value1": "1.5",
+    "value2": "1.5",
+    "expected": "3"
+  },
+  "integer_string_literal": {
+    "value1": "1",
+    "value2": "number",
+    "expected": "NaN"
+  }
+}

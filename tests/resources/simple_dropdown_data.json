@@ -1,0 +1,30 @@
+{
+  "case1": {
+    "option": "Sunday",
+    "expected": "Day selected :- Sunday"
+  },
+  "case2": {
+    "option": "Monday",
+    "expected": "Day selected :- Monday"
+  },
+  "case3": {
+    "option": "Tuesday",
+    "expected": "Day selected :- Tuesday"
+  },
+  "case4": {
+    "option": "Wednesday",
+    "expected": "Day selected :- Wednesday"
+  },
+  "case5": {
+    "option": "Thursday",
+    "expected": "Day selected :- Thursday"
+  },
+  "case6": {
+    "option": "Friday",
+    "expected": "Day selected :- Friday"
+  },
+  "case7": {
+    "option": "Saturday",
+    "expected": "Day selected :- Saturday"
+  }
+}
